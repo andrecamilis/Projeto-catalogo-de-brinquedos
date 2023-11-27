@@ -1,0 +1,22 @@
+#Fundo{
+  background-image: linear-gradient(to left, rgb(210,105,30), rgb(245,222,179));
+background-size: 100%;
+background-attachment: fixed;
+color: rgb(0, 0, 0);
+
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+.centered-form {
+  margin: 200px auto 0;
+  max-width: 600px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}

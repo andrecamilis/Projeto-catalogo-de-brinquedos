@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+body{background-image: url("images/foto2.jpg");
+   
+background-size: 93% absolute;}
+
+/* Parte da Logo*/
+#logo{background-image: url("images/logo.png");
+position: absolute;
+margin-left: 25px;
+width:290px; height:130px;
+background-size: 295px;
+margin-top: 12px;
+background-position:690%;}
+
+/* Parte do Texto*/
+#h1{
+    color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 58px;
+margin-left: 529px;
+margin-top: 28px;
+position: absolute;
+}
+
+
+
+/*============================================================*/
+
+                                /*Linhas */
+
+/*============================================================*/
+
+
+#linha-vertical{ width: 1346px;
+    height: 2px;
+    margin-top: 158px;
+    position: absolute;
+    background-image: linear-gradient(to right, #CCC, #ccc)
+    /*
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+*/
+}
+/*Linha na vertical 2*/
+#linha-vertical2{ width: 1346px;
+    height: 2px;
+    margin-top: 738px;
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+}
+
+
+#linha-vertical3{ 
+    margin-left: 235px;
+    width: 1100px;
+    height: 2px;
+    margin-top: 238px;
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+}
+
+/*============================================================*/
+
+                                /*Textos*/
+
+/*============================================================*/
+.txtBarra{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    margin-left:9px;
+    margin-top: -9px;
+    padding: 9px;
+    position: absolute;
+    height: 17px;
+    padding: 9px;
+    width: 163px;
+}
+
+.txtBarra2{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin-left:9px;
+    margin-top: -10px;
+    height: 37px;
+    padding: 3px;
+    width: 163px;
+    position: absolute;
+}
+.txtBarra3{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    margin-left:9px;
+    margin-top: -10px;
+    position: absolute;
+    height: 19px;   
+    padding: 9px;
+    width: 159px;
+    position: 2px;
+}
+.txtBarra4{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin-left:9px;
+    margin-top: -10px;
+    position: absolute;
+    padding: 9px;
+    width: 160px;
+    height: 19px;
+    
+}
+
+.txtSobre{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: -61px;
+    position: absolute;
+}
+
+
+/*============================================================*/
+
+                    /* Coisas do Menu */
+
+/*============================================================*/
+
+nav.barraLateral{
+    
+    
+    padding: 50px 0 70px 1px;
+    position: fixed;
+    top: 156px;
+    left:-10px;
+    font-size: 0px;
+    margin: 10px;
+    background:rgb(0, 0, 0);
+    border-radius:0px 28px 28px 28px;
+    box-shadow: 3px 0 0 #ffffff;
+}
+nav.barraLateral:hover{
+    transition: 2.2;
+    font-size: 20px;
+    
+    height: 270px;
+    width: 250px;
+    
+}
+
+nav li span.txtBarra .txtBarra2 .txtBarra3 .txtBarra4 :hover{
+    font-size: 90px;
+}
+
+.btn-expandir > i {
+    margin-left: 19px;
+    color: #CCC;
+    font-size: 24px;
+}
+
+
+
+.barraLateral2{
+    position: fixed;
+    top: 229px;
+    left: 0;
+    height: 900px;
+    width: 250px;
+    background: black;
+    border-radius: 28px;
+    border-top-color: aliceblue;
+}
+
+
+span{color: white;}
+
+ul li.ativo{
+   
+    
+    background: rgb(0, 17, 255);
+}
+
+ul li.item-menu{
+    transition: 1.2s;
+    transition-delay: 2ms;
+}
+
+
+.item-menu :hover{
+    line-height: 19px;
+    background: rgb(3, 6, 48);
+
+}
+
+ul li.item-menu a{
+   
+   
+    line-height: 19px;
+    text-decoration: none;
+    padding: 10px 4%;
+    display: inline;
+
+}
+
+ul li.item-menu{margin-top: 20%;}
+
+
+
+/*============================================================*/
+
+                    /*Integrantes */
+
+/*============================================================*/
+
+.integranteFoto{
+    background:url(images/fotoAndre.jpg) 270px -75px;
+   
+    margin-top: 100px;
+    margin-left: 140px;
+    width: 110px;
+    height:110px;
+    border-radius: 60px;
+   
+    position: absolute;
+}
+.integrante1{ 
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 225px;
+    position: absolute;
+}
+.integranteRGM{
+    color:rgb(145, 145, 145);
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 150px;
+    margin-top: 260px;
+    position: absolute;
+}
+.integranteCargo{
+    color:rgb(145, 145, 145);
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 135px;
+    margin-top: 290px;
+    position: absolute;
+}
+
+
+.integranteFoto2{
+    background:url(images/fotoRyan.jpg) 259px -85px ;
+    margin-left: 380px;
+    margin-top: 100px;
+    width: 110px;
+    height:110px;
+    border-radius: 60px;
+   
+    position: absolute;
+}
+.integrante2{
+     color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 370px;
+    margin-top: 225px;
+    position: absolute;
+}
+.integranteRGM2{
+    color:rgb(145, 145, 145);
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 400px;
+    margin-top: 260px;
+    position: absolute;
+}
+.integranteCargo2o{
+    color:rgb(145, 145, 145);
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 415px;
+    margin-top: 290px;
+    position: absolute;
+}
+
+
+
+
+.integranteFoto3{
+    background:url(images/saes.jpeg) 265px -85px ;
+    margin-left: 622px;
+    margin-top: 110px;
+    width: 110px;
+    height:110px;
+    border-radius: 60px;
+   
+    position: absolute;
+}
+.integrante3{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 597px;
+    margin-top: 230px;
+    position: absolute;
+
+}
+.integranteRGM3{
+    color:rgb(145, 145, 145);
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 632px;
+    margin-top: 260px;
+    position: absolute;
+}
+.integranteCargo3{
+    color:rgb(145, 145, 145);
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 642px;
+    margin-top: 295px;
+    position: absolute;
+}
+
+
+
+
+
+.integranteFoto4{
+    background:url(images/fotoAmorin.jpg) 255px -85px ;
+    margin-left: 1120px;
+    margin-top: 340px;
+    width: 110px;
+    height:110px;
+    border-radius: 60px;
+   
+    position: absolute;
+}
+.integrante4{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 1100px;
+    margin-top: 460px;
+    position: absolute;
+}
+.integranteRGM4{
+    color:rgb(145, 145, 145);
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 1130px;
+    margin-top: 498px;
+    position: absolute;
+}
+.integranteCargo4{
+    color:rgb(145, 145, 145);
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-left: 1100px;
+    margin-top: 528px;
+    position: absolute;
+}
+

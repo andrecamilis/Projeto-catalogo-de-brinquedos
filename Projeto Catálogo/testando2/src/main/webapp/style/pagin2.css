@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+
+body{background-image: url("images/foto2.jpg");
+
+   
+background-size: 93% absolute;}
+
+/* Parte da Logo*/
+#logo{background-image: url("images/logo.png");
+position: absolute;
+margin-left: 25px;
+width:290px; height:130px;
+background-size: 295px;
+margin-top: 12px;
+background-position:690%;}
+
+/* Parte do Texto*/
+#h1{
+   color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 58px;
+margin-left: 529px;
+margin-top: 28px;
+position: absolute;
+}
+
+.h2{
+    color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 38px;
+margin-left: 269px;
+margin-top: 178px;
+position: absolute;
+}
+
+
+img{
+	border-radius: 25px;
+	width: 350px;
+    margin-left: 290px;
+    margin-top: 280px;
+    position: absolute;
+   
+}
+
+/*
+img:hover{
+	background-color:rgb(3, 37, 109, 0.096);
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	border-radius: 25px;
+	width: 400px;
+    margin-left: 290px;
+    margin-top: 270px;
+    transition: 132ms;
+    position: absolute;
+}*/
+
+#codBrinquedo{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    width: 225px;
+    height: 125px;
+    margin-left: 680px;
+    margin-top: 280px;
+    position: absolute;
+    color: rgb(192, 192, 192);}
+
+#nomeProd{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+     font-style: italic;
+    width: 225px;
+    height: 125px;
+    margin-left: 680px;
+    margin-top: 330px;
+    position: absolute;
+    color: white;
+}
+
+
+#rbpreco{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+     font-style: italic;
+    width: 225px;
+    height: 125px;
+    margin-left: 680px;
+    margin-top: 480px;
+    position: absolute;
+    color: rgb(192, 192, 192);
+}
+
+#container{
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+	background-color:rgb(3, 37, 109, 0.096);
+	border-radius: 25px;
+	width: 545px;
+    height: 225px;
+	 margin-left: 290px;
+    margin-top: 520px;
+	position: absolute;
+}
+
+#container:hover{
+	background-color:rgb(3, 37, 109, 0.096);
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(0, 0, 98);
+	border-radius: 25px;
+	width: 545px;
+    height: 225px;
+	 margin-left: 290px;
+    margin-top: 520px;
+	position: absolute;
+	transition: 132ms;
+}
+
+
+
+#informacoes{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+     font-style: italic;
+   margin-left: 220px;
+    position: absolute;
+    color: rgb(255, 255, 255);}
+
+
+#desq{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+     font-style: italic;
+     margin-left: 15px;
+   margin-top: 55px;
+    position: absolute;
+    color: rgb(174, 174, 174);}
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================================================*/
+
+                                /*Linhas */
+
+/*============================================================*/
+
+
+#linha-vertical{ width: 1346px;
+    height: 2px;
+    margin-top: 158px;
+    position: absolute;
+    background-image: linear-gradient(to right, #CCC, #ccc)
+    /*
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+*/
+}
+/*Linha na vertical 2*/
+#linha-vertical2{ width: 1346px;
+    height: 2px;
+    margin-top: 838px;
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+}
+
+#linha-vertical3{ 
+    margin-left: 235px;
+    width: 1100px;
+    height: 2px;
+    margin-top: 238px;
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+}
+
+/*============================================================*/
+
+                    /* Coisas do Menu */
+
+/*============================================================*/
+
+nav.barraLateral{
+    
+    
+    padding: 50px 0 70px 1px;
+    position: fixed;
+    top: 156px;
+    left:-10px;
+    font-size: 0px;
+    margin: 10px;
+    background:rgb(0, 0, 0);
+    border-radius:0px 28px 28px 28px;
+    box-shadow: 3px 0 0 #ffffff;
+}
+nav.barraLateral:hover{
+    transition: 2.2;
+    font-size: 20px;
+    
+    height: 270px;
+    width: 250px;
+    
+}
+
+nav li span.txtBarra .txtBarra2 .txtBarra3 .txtBarra4 :hover{
+    font-size: 90px;
+}
+
+.btn-expandir > i {
+    margin-left: 19px;
+    color: #CCC;
+    font-size: 24px;
+}
+
+
+
+.barraLateral2{
+    position: fixed;
+    top: 229px;
+    left: 0;
+    height: 900px;
+    width: 250px;
+    background: black;
+    border-radius: 28px;
+    border-top-color: aliceblue;
+}
+
+
+span{color: white;}
+
+ul li.ativo{
+   
+    
+    background: rgb(0, 17, 255);
+}
+
+ul li.item-menu{
+    transition: 1.2s;
+    transition-delay: 2ms;
+}
+
+
+.item-menu :hover{
+    line-height: 19px;
+    background: rgb(3, 6, 48);
+
+}
+
+ul li.item-menu a{
+   
+   
+    line-height: 19px;
+    text-decoration: none;
+    padding: 10px 4%;
+    display: inline;
+
+}
+
+ul li.item-menu{margin-top: 20%;}

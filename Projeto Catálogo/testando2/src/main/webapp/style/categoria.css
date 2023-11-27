@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+body{background-image: url("images/foto2.jpg");
+   
+background-size: 93% absolute;}
+
+/* Parte da Logo*/
+#logo{background-image: url("images/logo.png");
+position: absolute;
+margin-left: 25px;
+width:290px; height:130px;
+background-size: 295px;
+background-position:790%;}
+
+/* Parte do Texto*/
+#h1{
+    color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 58px;
+margin-left: 529px;
+margin-top: 28px;
+position: absolute;
+}
+
+.h2{
+    color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 38px;
+margin-left: 269px;
+margin-top: 178px;
+position: absolute;
+}
+
+#h3{
+    color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+margin-left: 79px;
+position: absolute;
+}
+
+#h4{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+margin-left: 75px;
+  position: absolute;}
+
+#h5{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+margin-left: 56px;
+margin-top: 35px;
+  position: absolute;}
+
+
+
+
+/*============================================================*/
+
+                                /*Linhas */
+
+/*============================================================*/
+
+
+#linha-vertical{ width: 1346px;
+    height: 2px;
+    margin-top: 158px;
+    position: absolute;
+    background-image: linear-gradient(to right, #CCC, #ccc)
+    /*
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+*/
+}
+/*Linha na vertical 2*/
+#linha-vertical2{ width: 1346px;
+    height: 2px;
+    margin-top: 738px;
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+}
+
+#linha-vertical3{ 
+    margin-left: 235px;
+    width: 1100px;
+    height: 2px;
+    margin-top: 238px;
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+}
+
+
+
+/*============================================================*/
+
+                    /* botão */
+
+/*============================================================*/
+
+button{
+	 background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+
+
+
+/*============================================================*/
+
+                    /* IMG */
+
+/*============================================================*/
+
+#brinquedo{
+
+    border-color: antiquewhite;
+    margin-top: 335px;
+    margin-left: 195px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    
+}
+#brinquedo:hover{
+    border-radius: 25px;
+    border-color: rgb(199, 159, 0);
+    margin-top: 335px;
+    margin-left: 195px;
+    width: 255px;
+    height: 285px;
+    transform: translateY(-5px);
+    transition: 182ms;
+    line-height: 18px;
+    background: rgb(3, 6, 48);
+    
+}
+
+
+
+#brinquedo2{
+
+    border-color: antiquewhite;
+    margin-top: 335px;
+    margin-left: 420px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    
+}
+
+#brinquedo2:hover{
+    border-radius: 25px;
+    border-color: rgb(199, 159, 0);
+   margin-top: 335px;
+    margin-left: 420px;
+    width: 235px;
+    height: 265px;
+    transform: translateY(-5px);
+    transition: 182ms;
+    line-height: 18px;
+    background: rgb(3, 6, 48);
+    
+}
+
+
+
+#brinquedo3{
+    border-color: antiquewhite;
+    margin-top: 335px;
+    margin-left: 728px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#brinquedo3:hover{
+    border-radius: 25px;
+    border-color: rgb(199, 159, 0);
+    margin-top: 335px;
+    margin-left: 728px;
+    width: 235px;
+    height: 265px;
+    transform: translateY(-5px);
+    transition: 182ms;
+    line-height: 18px;
+    background: rgb(3, 6, 48);
+    transform-style: unset;
+    
+}
+
+#brinquedo4{
+    margin-top: 335px;
+    margin-left: 1020px;
+    width: 235px;
+    height: 235px;
+    position: absolute;
+}
+
+#brinquedo4:hover{
+    border-radius: 25px;
+    border-color: rgb(199, 159, 0);
+    margin-top: 335px;
+    margin-left: 1020px;
+    width: 235px;
+    height: 265px;
+    transform: translateY(-5px);
+    transition: 182ms;
+    line-height: 18px;
+    background: rgb(3, 6, 48);
+    transform-style: flat;
+    
+}
+
+
+
+/*============================================================*/
+
+                    /* Coisas do Menu */
+
+/*============================================================*/
+
+nav.barraLateral{
+    
+    
+    padding: 50px 0 70px 1px;
+    position: fixed;
+    top: 156px;
+    left:-10px;
+    font-size: 0px;
+    margin: 10px;
+    background:rgb(0, 0, 0);
+    border-radius:0px 28px 28px 28px;
+    box-shadow: 3px 0 0 #ffffff;
+}
+nav.barraLateral:hover{
+    transition: 2.2;
+    font-size: 20px;
+    
+    height: 270px;
+    width: 250px;
+    
+}
+
+nav li span.txtBarra .txtBarra2 .txtBarra3 .txtBarra4 :hover{
+    font-size: 90px;
+}
+
+.btn-expandir > i {
+    margin-left: 19px;
+    color: #CCC;
+    font-size: 24px;
+}
+
+.barraLateral2{
+    position: fixed;
+    top: 229px;
+    left: 0;
+    height: 900px;
+    width: 250px;
+    background: black;
+    border-radius: 28px;
+    border-top-color: aliceblue;
+}
+
+
+span{color: white;}
+
+ul li.ativo{
+   
+    
+    background: rgb(0, 17, 255);
+}
+ul li.item-menu{
+    transition: 1.2s;
+    transition-delay: 2ms;
+}
+.item-menu :hover{
+    line-height: 18px;
+    background: rgb(3, 6, 48);
+
+}
+ul li.item-menu a{
+   
+   
+    line-height: 18px;
+    text-decoration: none;
+    padding: 10px 4%;
+    display: inline;
+
+}
+ul li.item-menu{margin-top: 20%;}

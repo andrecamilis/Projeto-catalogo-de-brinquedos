@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+body{background-image: url("images/foto2.jpg");
+   
+background-size: 93% absolute;}
+
+/* Parte da Logo*/
+#logo{background-image: url("images/logo.png");
+position: absolute;
+margin-left: 25px;
+width:290px; height:130px;
+background-size: 295px;
+margin-top: 12px;
+background-position:690%;}
+
+/* Parte do Texto*/
+#h1{
+    color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 58px;
+margin-left: 529px;
+margin-top: 28px;
+position: absolute;
+}
+
+.h2{
+    color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 38px;
+margin-left: 269px;
+margin-top: 178px;
+position: absolute;
+}
+/*============================================================*/
+
+                                /*Linhas */
+
+/*============================================================*/
+
+.container {
+	margin-left: 250px;
+	margin-top: 395px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: absolute;
+        }
+        .brinquedo {
+			background-image: url("images/asdadaa2.png"); 
+			background-repeat: repeat;
+          	 width: 220px;
+            height: 300px;
+            margin: 10px;
+            margin-left: 25px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .imagem-container {
+			margin-top: 125px;
+            width: 100%;
+            height: 60%;
+            position: absolute;
+            
+            
+        }
+       
+        
+        .im {
+			margin-top: 329px;
+            width: 300px;
+            max-height: 100%;
+            display: block;
+            margin-top: 39px;
+            
+        }
+        .produto-link {
+		
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 10;
+            width: 100%;
+            height: 100%;
+            transition: box-shadow 0.3s;
+        }
+        .produto-link span {
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			margin-top: 25px;
+            text-decoration: none;
+           
+        }
+        .produto-link .descricao {
+			
+            font-weight: bold;
+            color: green;
+            font-size: 1.3em;
+        }
+        .produto-link:hover,
+        .brinquedo:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            transform: translateY(-5px);
+        }
+        .categorias {
+            text-align: center;
+        }
+        .categorias button {
+            margin: 10px;
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        #imagemFundo{
+			
+			border-radius: 25px;
+			margin-top: 25px;
+			width:199px;
+			position: absolute;
+		}
+
+/*============================================================*/
+
+                                /*Linhas */
+
+/*============================================================*/
+
+
+#linha-vertical{ width: 1346px;
+    height: 2px;
+    margin-top: 158px;
+    position: absolute;
+    background-image: linear-gradient(to right, #CCC, #ccc)
+    /*
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+*/
+}
+/*Linha na vertical 2*/
+#linha-vertical2{ width: 1346px;
+    height: 2px;
+    margin-top: 738px;
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+}
+
+#linha-vertical3{ 
+    margin-left: 235px;
+    width: 1100px;
+    height: 2px;
+    margin-top: 238px;
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent)
+}
+
+/*============================================================*/
+
+                                /*Textos*/
+
+/*============================================================*/
+
+#txtProd{
+	margin-top: 10px;
+	color:rgb(0, 0, 0);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+
+
+.txtBarra{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    margin-left:9px;
+    margin-top: -9px;
+    padding: 9px;
+    position: absolute;
+    height: 17px;
+    padding: 9px;
+    width: 163px;
+}
+
+.txtBarra2{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin-left:9px;
+    margin-top: -10px;
+    height: 37px;
+    padding: 3px;
+    width: 163px;
+    position: absolute;
+}
+.txtBarra3{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    margin-left:9px;
+    margin-top: -10px;
+    position: absolute;
+    height: 19px;   
+    padding: 9px;
+    width: 159px;
+    position: 2px;
+}
+.txtBarra4{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin-left:9px;
+    margin-top: -10px;
+    position: absolute;
+    padding: 9px;
+    width: 160px;
+    height: 19px;
+    
+}
+.txtSobre{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: -61px;
+    position: absolute;
+}
+
+
+/*============================================================*/
+
+                    /* Coisas do Menu */
+
+/*============================================================*/
+
+nav.barraLateral{
+    
+    
+    padding: 50px 0 70px 1px;
+    position: fixed;
+    top: 156px;
+    left:-10px;
+    font-size: 0px;
+    margin: 10px;
+    background:rgb(0, 0, 0);
+    border-radius:0px 28px 28px 28px;
+    box-shadow: 3px 0 0 #ffffff;
+}
+nav.barraLateral:hover{
+    transition: 2.2;
+    font-size: 20px;
+    
+    height: 270px;
+    width: 250px;
+    
+}
+
+nav li span.txtBarra .txtBarra2 .txtBarra3 .txtBarra4 :hover{
+    font-size: 90px;
+}
+
+.btn-expandir > i {
+    margin-left: 19px;
+    color: #CCC;
+    font-size: 24px;
+}
+
+.barraLateral2{
+    position: fixed;
+    top: 229px;
+    left: 0;
+    height: 900px;
+    width: 250px;
+    background: black;
+    border-radius: 28px;
+    border-top-color: aliceblue;
+}
+
+
+span{color: white;}
+
+ul li.ativo{
+   
+    
+    background: rgb(0, 17, 255);
+}
+ul li.item-menu{
+    transition: 1.2s;
+    transition-delay: 2ms;
+}
+.item-menu :hover{
+    line-height: 18px;
+    background: rgb(3, 6, 48);
+
+}
+ul li.item-menu a{
+   
+   
+    line-height: 18px;
+    text-decoration: none;
+    padding: 10px 4%;
+    display: inline;
+
+}
+ul li.item-menu{margin-top: 20%;}
