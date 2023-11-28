@@ -26,3 +26,11 @@ CREATE TABLE brinquedo (
     foto longblob NOT NULL</br>
 )ENGINE=InnoDB;</br>
 drop table if exists catalogo.brinquedo;
+
+ <H2>Programas Usados / Program requeriment</H2>
+ Eclipse IDE Java EE</br>
+ WAMP SERVER </br>
+ Apache Tomcat</br>
+ MySQL Workbeanch
+
+
