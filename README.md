@@ -5,7 +5,7 @@ Project devolep in Java
 👤 Rafael Saes Palaria</br>
 👤 Rafael Silva Amorim</br>
 👤 Ryan Soyza Pires</br>
-👤 André Vinícius de Siqueia Camilis</br>
+👤 André Vinícius de Siqueira Camilis</br>
 
  <H2>Descrição / Description </H2>
  Este projeto foi desenvolvido para um trabalho de faculdade, em que tivemos que cadastrar brinquedos
